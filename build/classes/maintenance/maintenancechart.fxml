@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller=".MaintenanceController">
+   <children>
+      <TableView prefHeight="424.0" prefWidth="644.0">
+        <columns>
+          <TableColumn prefWidth="64.0" text="SL." />
+          <TableColumn prefWidth="137.0" text="Items" />
+            <TableColumn prefWidth="99.0" text="Schedule" />
+            <TableColumn prefWidth="167.0" text="Check Box" />
+            <TableColumn prefWidth="213.0" text="Date &amp; Time" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

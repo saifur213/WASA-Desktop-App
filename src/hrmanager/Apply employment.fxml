@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="500.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admin.AddEmployeeController">
+   <children>
+      <TextField fx:id="workerId" layoutX="171.0" layoutY="61.0" />
+      <Label layoutX="108.0" layoutY="65.0" text="Worker ID" />
+      <TextField fx:id="workerName" layoutX="170.0" layoutY="123.0" />
+      <Label layoutX="108.0" layoutY="127.0" text="Full Name:" />
+      <TextField fx:id="workerUsername" layoutX="170.0" layoutY="184.0" />
+      <Label layoutX="108.0" layoutY="188.0" text="Username:" />
+      <Label layoutX="110.0" layoutY="247.0" />
+      <TextField fx:id="custEmaempEmail" layoutX="414.0" layoutY="61.0" />
+      <Label layoutX="352.0" layoutY="65.0" text="Email:" />
+      <Label layoutX="354.0" layoutY="179.0" text="Dob:" />
+      <TextField fx:id="workerAddress" layoutX="416.0" layoutY="232.0" />
+      <Label layoutX="354.0" layoutY="236.0" text="Address:" />
+      <Button layoutX="548.0" layoutY="354.0" mnemonicParsing="false" onAction="#addWorkerButtonOnClick" text="Save" />
+      <Button layoutX="615.0" layoutY="354.0" mnemonicParsing="false" onAction="#cancelButtonOnClick" text="Cancel" />
+      <Label layoutX="93.0" layoutY="247.0" text="Joininig Date:" />
+      <DatePicker fx:id="workerJoiningDatePicker" layoutX="171.0" layoutY="245.0" prefHeight="25.0" prefWidth="150.0" />
+      <DatePicker fx:id="workerDobDatePicker" layoutX="413.0" layoutY="175.0" prefHeight="25.0" prefWidth="157.0" />
+      <Label fx:id="messageLabel" layoutX="202.0" layoutY="26.0" prefHeight="17.0" prefWidth="260.0" textFill="#0e983a">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="workerMobile" layoutX="414.0" layoutY="111.0" />
+      <Label layoutX="352.0" layoutY="115.0" text="Mobile:" />
+   </children>
+</AnchorPane>

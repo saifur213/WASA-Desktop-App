@@ -1,0 +1,14 @@
+2020762,ashik,123,Ashik Miah,ashik@gmail.com,017263734,Dhaka,System Admin,2016-03-03
+2020273,rahul,123,Rahul Paul,rahul@gmail.com,017263654,Dhaka,Accounts,2006-03-02
+2020255,joy,123,Rakib Chowdhury Joy,joy@gmail.com,0173483454,Dhaka,Employee,2002-03-01
+2020938,arman,123,Arman Hossain,arman@gmail.com,017343534,Dhaka,Customer,2000-03-01
+1821941,rafi,123,Md. Rafiul Islam Rafi,rafi@gmail.com,017343534,Dhaka, Service,2000-03-09
+1821384,sobuj,123,Sobuj Islam,sobuj@gmail.com,017343534,Dhaka,Maintenance,2000-02-28
+1831194,tahmid,123,Tahmid Hossain Sun,tahmid@gmail.com,017343534,Dhaka,Manager,2000-02-09
+1835645,sun,123,Sun Mahmud,sun@gmail.com,017343534,Dhaka,Security officer,1998-02-13
+2022058,aftab,123,Mohammad AftabMahmud,aftabun@gmail.com,017343655,Dhaka,HR manager,1998-02-03
+2022947,mahmud,123,Mohammad AftabMahmud,mahmud@gmail.com,017343655,Dhaka,Worker Supervisor,1998-02-02
+2020837,shiyam,123,Shiyam Islam,shiyam@gmail.com,0372344,Dhaka,Customer,2017-02-28
+2020873,shifat,123,Shifat Islam,shifat@gmail.com,0183634545,Dhaka,Employee,2008-02-28
+2020837,shihab,123,Shihab,shihab@gmail.com,0187363745,Dhaka,Customer,2012-02-29
+2020876,smith,123,Smith,smith@gmail.com,01345678545,Dhaka,Customer,2023-04-20

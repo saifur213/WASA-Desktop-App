@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="461.0" prefWidth="657.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView layoutX="-2.0" layoutY="-1.0" prefHeight="461.0" prefWidth="663.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="ID NO" />
+          <TableColumn prefWidth="103.0" text="NAME" />
+            <TableColumn prefWidth="95.0" text="Email" />
+            <TableColumn prefWidth="385.0" text="Applications" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

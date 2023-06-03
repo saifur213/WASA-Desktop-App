@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="402.0" prefWidth="619.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="4.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cut Off Connectios:">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Text>
+      <TableView layoutX="-2.0" layoutY="40.0" prefHeight="365.0" prefWidth="629.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Connection1" />
+          <TableColumn prefWidth="75.0" text="Connection2" />
+            <TableColumn prefWidth="75.0" text="Connection3" />
+            <TableColumn prefWidth="75.0" text="Connection4" />
+            <TableColumn prefWidth="75.0" text="Connection5" />
+            <TableColumn prefWidth="76.0" text="Connection6" />
+            <TableColumn prefWidth="83.0" text="Connection7" />
+            <TableColumn prefWidth="90.0" text="Date&amp;Time" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

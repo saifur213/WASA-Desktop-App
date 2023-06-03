@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="433.0" prefWidth="658.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="null.CheckEmployeeContactInfoController">
+   <children>
+      <TableView layoutY="-1.0" prefHeight="433.0" prefWidth="675.0">
+        <columns>
+          <TableColumn prefWidth="101.0" text="EMPLOYEE ID" />
+          <TableColumn prefWidth="116.0" text="FULL NAME" />
+            <TableColumn prefWidth="127.0" text="EMAIL" />
+            <TableColumn prefWidth="129.0" text="CONTACT NUMBER" />
+            <TableColumn prefWidth="201.0" text="ADDRESS" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

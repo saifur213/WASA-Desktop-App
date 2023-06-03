@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller=".CheckEquipmenListController">
+   <children>
+      <TableView layoutX="-1.0" prefHeight="400.0" prefWidth="608.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Serial No" />
+          <TableColumn prefWidth="84.0" text="Chasis No" />
+            <TableColumn prefWidth="102.0" text="Item No" />
+            <TableColumn prefWidth="346.0" text="Item Status" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

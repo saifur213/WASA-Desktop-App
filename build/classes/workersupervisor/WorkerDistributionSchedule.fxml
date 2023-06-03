@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="520.0" prefWidth="765.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="workersupervisor.WorkerDistributionScheduleController">
+   <children>
+      <TableView prefHeight="287.0" prefWidth="765.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Serial no." />
+          <TableColumn prefWidth="355.0" text="Available Worker name" />
+        </columns>
+      </TableView>
+      <Button layoutX="332.0" layoutY="451.0" mnemonicParsing="false" text="Create Schedule" />
+      <TextField layoutX="154.0" layoutY="330.0" />
+      <Label layoutX="65.0" layoutY="334.0" text="Worker Id" />
+      <Label layoutX="79.0" layoutY="380.0" text="Time" />
+      <TextField layoutX="154.0" layoutY="376.0" />
+   </children>
+</AnchorPane>
